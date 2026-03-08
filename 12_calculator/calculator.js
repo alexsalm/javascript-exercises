@@ -10,12 +10,8 @@ const sum = function(array) {
 	return array.reduce((total, current) => total + current, 0);
 };
 
-const multiply = function(...numbers) {
-  let product = 1;
-  for (let number of numbers) {
-    product = product * number;
-  }
-  return product;
+const multiply = function(array) {
+  return array.reduce((total, current) => total * current);
 };
 
 const power = function() {
